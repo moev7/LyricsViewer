@@ -15,6 +15,8 @@
 		9731A9F7201FA8ED0006BD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9731A9F5201FA8ED0006BD3C /* LaunchScreen.storyboard */; };
 		9731AA02201FA8ED0006BD3C /* LyricsViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9731AA01201FA8ED0006BD3C /* LyricsViewerTests.swift */; };
 		9731AA0D201FA8ED0006BD3C /* LyricsViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9731AA0C201FA8ED0006BD3C /* LyricsViewerUITests.swift */; };
+		9775B70E202F6DA400EE6CA7 /* FinalLyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775B70D202F6DA400EE6CA7 /* FinalLyrics.swift */; };
+		979AE772201FB30F00E34909 /* LyricsViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979AE771201FB30F00E34909 /* LyricsViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9731AA08201FA8ED0006BD3C /* LyricsViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricsViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9731AA0C201FA8ED0006BD3C /* LyricsViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewerUITests.swift; sourceTree = "<group>"; };
 		9731AA0E201FA8ED0006BD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9775B70D202F6DA400EE6CA7 /* FinalLyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalLyrics.swift; sourceTree = "<group>"; };
+		979AE771201FB30F00E34909 /* LyricsViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				9731A9EA201FA8ED0006BD3C /* AppDelegate.swift */,
-				9731A9EC201FA8ED0006BD3C /* FirstViewController.swift */,
 				9731A9EE201FA8ED0006BD3C /* SecondViewController.swift */,
+				9731A9EC201FA8ED0006BD3C /* FirstViewController.swift */,
+				979AE771201FB30F00E34909 /* LyricsViewer.swift */,
+				9775B70D202F6DA400EE6CA7 /* FinalLyrics.swift */,
 				9731A9F0201FA8ED0006BD3C /* Main.storyboard */,
 				9731A9F3201FA8ED0006BD3C /* Assets.xcassets */,
 				9731A9F5201FA8ED0006BD3C /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979AE772201FB30F00E34909 /* LyricsViewer.swift in Sources */,
 				9731A9EF201FA8ED0006BD3C /* SecondViewController.swift in Sources */,
 				9731A9EB201FA8ED0006BD3C /* AppDelegate.swift in Sources */,
 				9731A9ED201FA8ED0006BD3C /* FirstViewController.swift in Sources */,
+				9775B70E202F6DA400EE6CA7 /* FinalLyrics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
